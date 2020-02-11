@@ -2,7 +2,7 @@
   "name": "Galactvm",
   "version": "0.1.0",
   "description": "An isometric space board game",
-  "main": "src/game.ts",
+  "main": "src/galactvm.ts",
   "scripts": {
     "dev": "rollup --config rollup.config.dev.js",
     "build": "rollup --config rollup.config.dist.js",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/javierlopezdeancos/galactvm.git"
   },
-  "author": "Javier López de Ancos <javierlopezdeancos@gmail.com> (http://www.javierlopezdeancos.dev)",
+  "author": "Javier López de Ancos <javierlopezdeancos@outlook.com> (http://www.javierlopezdeancos.dev)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/javierlopezdeancos/issues"

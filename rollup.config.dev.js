@@ -8,7 +8,7 @@ export default {
 
     //  Our games entry point (edit as required)
     input: [
-        './src/game.ts'
+        './src/galactvm.ts'
     ],
 
     //  Where the build file is to be generated.
@@ -16,8 +16,8 @@ export default {
     //  You can also use 'umd' if you need to ingest your game into another system.
     //  The 'intro' property can be removed if using Phaser 3.21 or above. Keep it for earlier versions.
     output: {
-        file: './dist/game.js',
-        name: 'MyGame',
+        file: './dist/galactvm.js',
+        name: 'Galactvm',
         format: 'iife',
         sourcemap: true,
         intro: 'var global = window;'
@@ -46,7 +46,7 @@ export default {
                 'node_modules/eventemitter3/**',
                 'node_modules/phaser/**'
             ],
-            exclude: [ 
+            exclude: [
                 'node_modules/phaser/src/polyfills/requestAnimationFrame.js'
             ],
             sourceMap: true,
